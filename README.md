@@ -17,10 +17,15 @@ dbt (short for Data Build Tool) is an open-source command-line tool that enables
 **Compatibility:** dbt is compatible with several popular data warehouses, including Snowflake, BigQuery, Redshift, and others.
 
 **How dbt Fits in the Data Pipeline:**
+
 **Extract:** Data is extracted from various sources (like databases, APIs, etc.).
+
 **Load:** This raw data is loaded into a data warehouse.
+
 **Transform:** dbt is used to transform this raw data into a more usable format, creating clean, reliable data models that can be used for reporting, analysis, or further data science work.
+
 **Example Use Case:**
+
 Suppose you have raw data in your data warehouse about customer orders, product information, and shipments. Using dbt, you can create SQL-based transformations to clean, aggregate, and structure this data into a single, easy-to-use dataset that your business intelligence tools can query to generate reports.
 
 Overall, dbt is a powerful tool that brings software engineering best practices, such as modularity, testing, and version control, into the world of data transformations.
